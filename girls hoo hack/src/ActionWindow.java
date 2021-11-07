@@ -55,8 +55,9 @@ public class ActionWindow extends JFrame{
 		panel.add(username);
 		panel.add(instructionLabel);
 		//enter name label 
-		textField = new JTextField();
-        textField.setBounds(0, 0, 100, 20);
+		textField = new JTextField(20);
+		textField.setLocation(200,200);
+
 		panel.add(textField);
 		pane.add(panel);
 		// add button 
