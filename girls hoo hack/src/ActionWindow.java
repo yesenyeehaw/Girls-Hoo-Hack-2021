@@ -19,6 +19,7 @@ public class ActionWindow extends JFrame{
 	JLabel username;
 
 	
+	
 	//2. Form elements 
 	public ActionWindow() {
 		instructionLabel = new JLabel("Enter your name: ");
